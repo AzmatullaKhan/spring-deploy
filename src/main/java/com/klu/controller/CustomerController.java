@@ -17,7 +17,7 @@ import com.klu.services.CustomerService;
 
 @RestController
 @RequestMapping("/customer")
-@CrossOrigin(origins = "https://loomcraft.vercel.app") 
+@CrossOrigin
 public class CustomerController {
 	
 	@Autowired

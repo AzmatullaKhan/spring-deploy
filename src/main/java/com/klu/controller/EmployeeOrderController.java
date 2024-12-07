@@ -17,7 +17,7 @@ import com.klu.model.EmployeeOrderModel;
 import com.klu.services.EmployeeOrderService;
 
 @RestController
-@CrossOrigin(origins = "https://loomcraft.vercel.app") 
+@CrossOrigin(origins = "http://localhost:3000") 
 @RequestMapping("/employeeOrder")
 public class EmployeeOrderController {
 
