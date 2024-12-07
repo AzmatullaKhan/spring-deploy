@@ -18,7 +18,7 @@ import com.klu.services.OrderService;
 
 @RestController
 @RequestMapping("/order")
-@CrossOrigin(origins = "http://localhost:3000") 
+@CrossOrigin(origins = "https://loomcraft.vercel.app") 
 public class OrderController {
 
 	@Autowired
