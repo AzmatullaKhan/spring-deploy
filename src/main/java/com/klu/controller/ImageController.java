@@ -15,7 +15,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/images")
-@CrossOrigin(origins = "http://localhost:3000") 
+@CrossOrigin(origins = "https://loomcraft.vercel.app") 
 public class ImageController {
 
     @Autowired
