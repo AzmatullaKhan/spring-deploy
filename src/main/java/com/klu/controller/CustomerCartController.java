@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 @RestController
 @RequestMapping("/customercart")
-@CrossOrigin(origins = "http://localhost:3000") 
+@CrossOrigin(origins = {"http://localhost:3000","https://looomcraft.vercel.app"}) 
 public class CustomerCartController {
 	
 	@Autowired
