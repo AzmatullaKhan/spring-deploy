@@ -16,7 +16,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/images")
 <<<<<<< HEAD
-@CrossOrigin(origins = {"http://localhost:3000","https://looomcraft.vercel.app"}) 
+@CrossOrigin(origins = {"http://localhost:3000","https://looomcraft.vercel.app","https://loomcraft.vercel.app"}) 
 =======
 @CrossOrigin(origins = "https://loomcraft.vercel.app") 
 >>>>>>> 471860786645602b3c57fec87b68ffa4444edd20
